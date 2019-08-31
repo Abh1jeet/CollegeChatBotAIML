@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>WHO ARE YOU *</pattern>
+	<template><srai>BOT DETAILS</srai></template>
+</category>
+
+
+<category>
+	<pattern>WHO ARE YOU </pattern>
+	<template><srai>BOT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>WHO ARE YOU *</pattern>
+	<template><srai>BOT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* ARE YOU *</pattern>
+	<template><srai>BOT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>WHAT YOU DO</pattern>
+	<template><srai>BOT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>WHAT DO YOU DO</pattern>
+	<template><srai>BOT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>WHAT IS YOUR WORK</pattern>
+	<template><srai>BOT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>HOW YOU CAN HELP ME</pattern>
+	<template><srai>BOT DETAILS</srai></template>
+</category>
+<category>
+	<pattern>HOW CAN YOU HELP ME</pattern>
+	<template><srai>BOT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>WHAT YOU CAN DO FOR ME</pattern>
+	<template><srai>BOT DETAILS</srai></template>
+</category>
+<!-- answers -->
+<category>
+	<pattern>BOT DETAILS</pattern>
+	<template>
+		<random>
+         <li>I am ubot i give answer to college related queries i am here to help you. ASK ME ANYTHING</li>
+	      <li>I am a bot which gives answer to college admission related queries</li>
+	      <li>my intro is not important . i am here to help you</li>
+	    </random>
+	</template>
+</category>
+
+
+
+</aiml>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>THE COORDINATOR (ADMISSION)</pattern>
+	<template><srai>ADIMISSION DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>ADMISSION COORDINATOR</pattern>
+	<template><srai>ADIMISSION DETAILS</srai></template>
+</category>
+<category>
+	<pattern>* ADMISSION COORDINATOR</pattern>
+	<template><srai>ADIMISSION DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* ADMISSION * COORDINATOR * </pattern>
+	<template><srai>ADIMISSION DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>ADMISSION * CONTACT *</pattern>
+	<template><srai>ADIMISSION DETAILS</srai></template>
+</category>
+<category>
+	<pattern>ADMISSION * CONTACT * DETAILS *</pattern>
+	<template><srai>ADIMISSION DETAILS</srai></template>
+</category>
+
+
+<category>
+	<pattern> * THE * COORDINATOR* ADMISSION *</pattern>
+	<template><srai>ADIMISSION DETAILS</srai></template>
+</category>
+<!-- answers -->
+<category>
+	<pattern>ADIMISSION DETAILS</pattern>
+	<template>
+		
+			Dr. H. S. Chawla
+            The Coordinator (Admission)
+            Phones:+91-5944-233407 (Admission Cell), +91-5944-233640 (Registrar Office)
+			
+	</template>
+</category>
+
+
+</aiml>

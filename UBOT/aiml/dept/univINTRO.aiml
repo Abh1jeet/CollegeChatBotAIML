@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+
+
+<!--colleges realated query -->
+<!--colleges name -->
+<category>
+  <pattern> NAME OF ALL COLLEGES</pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+<category>
+  <pattern> * NAME * COLLEGES *</pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+<category>
+  <pattern> * NAME * COLLEGES</pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+<category>
+  <pattern> * NAME * COLLEGES</pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+<category>
+  <pattern> NAME * COLLEGES</pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+<category>
+  <pattern> NAME * COLLEGES *</pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+
+<category>
+  <pattern> NAME COLLEGES</pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+<category>
+  <pattern> COLLEGES NAME </pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+<category>
+  <pattern> ALL COLLEGES NAME</pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+<category>
+  <pattern>NAME OF ALL COLLEGES *</pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+
+<category>
+  <pattern>WHAT ARE THE NAME OF ALL COLLEGES </pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+<category>
+  <pattern>WHAT ARE THE NAMES OF ALL COLLEGE </pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+
+<category>
+  <pattern>WHAT ARE THE NAMES OF ALL COLLEGES </pattern>
+  <template><srai>COLLEGE NAME</srai></template>
+</category>
+
+<category>
+	<pattern>COLLEGE NAME</pattern>
+	<template>There are 8 colleges in university namely COT,CBSH,COA,CABM,COF,COHS</template>
+</category>
+
+
+
+<!--college dean names -->
+
+
+<category>
+	<pattern>WHO IS THE DEAN OF COLLEGE OF TECHNOLOGY</pattern>
+	<template><srai>DEAN COT</srai></template>
+</category>
+<category>
+	<pattern>WHO IS THE DEAN OF COT</pattern>
+	<template><srai>DEAN COT</srai></template>
+</category>
+
+<category>
+  <pattern>* DEAN OF COT</pattern>
+  <template><srai>DEAN COT</srai></template>
+</category>
+
+<category>
+  <pattern>* DEAN OF COT *</pattern>
+  <template><srai>DEAN COT</srai></template>
+</category>
+
+<category>
+  <pattern>* DEAN * COT *</pattern>
+  <template><srai>DEAN COT</srai></template>
+</category>
+
+<category>
+  <pattern>* DEAN COT *</pattern>
+  <template><srai>DEAN COT</srai></template>
+</category>
+<category>
+	<pattern>NAME _ DEAN OF COLLEGE OF TECHNOLOGY</pattern>
+	<template><srai>DEAN COT</srai></template>
+</category>
+<category>
+	<pattern>NAME _ DEAN OF COT</pattern>
+	<template><srai>DEAN COT</srai></template>
+</category>
+<category>
+	<pattern>DEAN OF COLLEGE OF TECHNOLOGY</pattern>
+	<template><srai>DEAN COT</srai></template>
+</category>
+<category>
+	<pattern>DEAN OF COT</pattern>
+	<template><srai>DEAN COT</srai></template>
+</category>
+
+<category>
+	<pattern>DEAN COT</pattern>
+	<template>
+       <random>
+		<li>DR.HC SHARMA is the dean of college of technology</li>
+		<li>dean of college of technology is DR.HC SHARMA</li>
+		<li>DR.HC SHARMA is the dean of COT</li>
+        <li>dean of COT is DR.HC SHARMA</li>
+       </random>   
+
+	</template>
+</category>
+
+<category>
+	<pattern>WHO IS THE DEAN OF COLLEGE OF AGRICULTURE</pattern>
+	<template><srai>DEAN COA</srai></template>
+</category>
+<category>
+	<pattern>WHO IS THE DEAN OF COA</pattern>
+	<template><srai>DEAN COA</srai></template>
+</category>
+<category>
+	<pattern>NAME _ DEAN OF COLLEGE OF AGRICULTURE</pattern>
+	<template><srai>DEAN COA</srai></template>
+</category>
+<category>
+	<pattern>NAME _ DEAN OF COA</pattern>
+	<template><srai>DEAN COA</srai></template>
+</category>
+<category>
+	<pattern>DEAN OF COLLEGE OF AGRICULTURE</pattern>
+	<template><srai>DEAN COA</srai></template>
+</category>
+<category>
+	<pattern>DEAN OF COA</pattern>
+	<template><srai>DEAN COA</srai></template>
+</category>
+
+<category>
+  <pattern>* DEAN OF COA</pattern>
+  <template><srai>DEAN COA</srai></template>
+</category>
+
+<category>
+  <pattern>* DEAN OF COA *</pattern>
+  <template><srai>DEAN COA</srai></template>
+</category>
+
+<category>
+  <pattern>* DEAN * COA *</pattern>
+  <template><srai>DEAN COA</srai></template>
+</category>
+
+<category>
+  <pattern>* DEAN COA *</pattern>
+  <template><srai>DEAN COA</srai></template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+<category>
+	<pattern>DEAN COA</pattern>
+	<template>
+       <random>
+		<li>DR.A is the dean of college of agriculture</li>
+		<li>dean of college of agriculture is DR.A</li>
+		<li>DR.HC SHARMA is the dean of COA</li>
+        <li>dean of COA is DR.HC SHARMA</li>
+       </random>   
+
+	</template>
+</category>
+
+
+
+
+
+
+<!--COT related query -->
+<category>
+  <pattern> NAME OF ALL BRANCHES </pattern>
+  <template><srai>BRANCHES NAMES</srai></template>
+</category>
+<category>
+  <pattern> NAME OF _ BRANCHES *</pattern>
+  <template><srai>BRANCHES NAMES</srai></template>
+</category>
+<category>
+  <pattern> NAME OF ALL BRANCHES *</pattern>
+  <template><srai>BRANCHES NAMES</srai></template>
+</category>
+<category>
+  <pattern>NAME * BRANCHES PRESENT *</pattern>
+  <template><srai>BRANCHES NAMES</srai></template>
+</category>
+<category>
+  <pattern>* BRANCHES PRESENT * </pattern>
+  <template><srai>BRANCHES NAMES</srai></template>
+</category>
+
+<category>
+  <pattern> NAME OF ALL DEPARTMENTS </pattern>
+  <template><srai>BRANCHES NAMES</srai></template>
+</category>
+<category>
+  <pattern> NAME OF _ DEPARTMENTS *</pattern>
+  <template><srai>BRANCHES NAMES</srai></template>
+</category>
+<category>
+  <pattern> NAME OF ALL DEPARTMENTS *</pattern>
+  <template><srai>BRANCHES NAMES</srai></template>
+</category>
+<category>
+  <pattern>NAME * DEPARTMENTS PRESENT *</pattern>
+  <template><srai>BRANCHES NAMES</srai></template>
+</category>
+<category>
+  <pattern>* DEPARTMENTS PRESENT * </pattern>
+  <template><srai>BRANCHES NAMES</srai></template>
+</category>
+<category>
+  <pattern>BRANCHES NAMES  </pattern>
+  <template>CS ME IT CIVIL ECE EE AGRI IPE</template>
+</category>
+
+
+<!--college fests
+-->
+<category>
+	<pattern>* COLOSSEUM *</pattern>
+	<template>COLOSSEUM IS A NATIONAL LEVEL TECHNICAL FEST GERNALLY ORAGANISED IN FEB-MARCH</template>
+</category>
+<category>
+	<pattern>* COLOSSEUM </pattern>
+	<template>COLOSSEUM IS A NATIONAL LEVEL TECHNICAL FEST GERNALLY ORAGANISED IN FEB-MARCH</template>
+</category>
+
+<category>
+	<pattern>* ACCOLADE *</pattern>
+	<template>ACCOLADE IS A NATIONAL LEVEL CULTURAL FEST GERNALLY ORAGANISED IN FEB-MARCH</template>
+</category>
+<category>
+	<pattern>* ACCOLADE </pattern>
+	<template>ACCOLADE IS A NATIONAL LEVEL CULTURAL FEST GERNALLY ORAGANISED IN FEB-MARCH</template>
+</category>
+
+<category>
+	<pattern>* LITROSPHERE *</pattern>
+	<template>LITROSPHERE IS A NATIONAL LEVEL LITRARY FEST GERNALLY ORAGANISED IN FEB-MARCH</template>
+</category>
+<category>
+	<pattern>* LITROSPHERE </pattern>
+	<template>LITROSPHERE IS A NATIONAL LEVEL LITRARY FEST GERNALLY ORAGANISED IN FEB-MARCH</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+</aiml>

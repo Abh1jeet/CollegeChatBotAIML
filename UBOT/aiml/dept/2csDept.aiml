@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>ABOUT CSE DEPARTMENT</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* ABOUT CSE DEPARTMENT</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>HOW IS CSE DEPARTMENT *</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+<category>
+	<pattern>HOW IS CSE _ DEPARTMENT *</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+
+
+<category>
+	<pattern>HOW IS CSE DEPARTMENT</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+<category>
+	<pattern>ABOUT CSE DEPARTMENT</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* ABOUT CSE DEPARTMENT</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>HOW IS CSE DEPARTMENT *</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>HOW IS COMPUTER ENGINEERING DEPARTMENT</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+<category>
+	<pattern>ABOUT COMPUTER ENGINEERING DEPARTMENT</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* ABOUT COMPUTER ENGINEERING DEPARTMENT</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>HOW IS COMPUTER ENGINEERING DEPARTMENT *</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>HOW IS COMPUTER ENGINEERING DEPARTMENT</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>HOW IS  _ COMPUTER ENGINEERING DEPARTMENT</pattern>
+	<template><srai>CSE DETAILS</srai></template>
+</category>
+<!-- answers -->
+<category>
+	<pattern>CSE DETAILS</pattern>
+	<template>
+		<random>
+			<li>CSE DEPARTMENT IS BEST</li>
+			<li>CSE DEPARTMENT IS COOLEST </li>
+			<li>CSE DEPARTMENT IS AEWESOME </li>
+			<li>CSE DEPARTMENT IS WORST</li>
+		</random>
+	</template>
+</category>
+
+
+</aiml>

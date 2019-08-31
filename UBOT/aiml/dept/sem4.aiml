@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>SUBJECTS IN SEM 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SUBJECTS IN SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SUBJECTS SEM 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SUBJECTS * SEM 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* SUBJECTS * SEM 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* SUBJECTS * SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SUBJECTS SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SUBJECTS * SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES IN SEM 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES IN SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES SEM 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES * SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* YEAR 2 SEM 1 *</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+
+<category>
+	<pattern>* YEAR 2 SEM 1 </pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* 2nd year SEM 1 </pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES IN YEAR 2 SEM 1</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+
+
+<category>
+	<pattern>WHAT ARE THE COURSES IN SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE COURSES * IN SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE COURSES * IN SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+<category>
+	<pattern>* COURSES * IN SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+<category>
+	<pattern>* COURSES * SEMESTER 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+<category>
+	<pattern>* COURSES * SEM 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+
+<category>
+	<pattern>WHAT ARE THE COURSES IN SEM 4</pattern>
+	<template><srai>SEM4 DETAILS</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>SEM4 DETAILS</pattern>
+	<template>
+		<random>
+			<li>SP,FCCS,OR,NCMR,LP,CN,DAA,OS,MIS</li>
+			<li>WE STUDY FOLLOWING SUBJECTS IN SEMESTER 4 SP,FCCS,OR,NCMR,LP,CN,DAA,OS,MIS</li>
+			<li>THESE ARE THE FOLLOWING SUBJECTS SP,FCCS,OR,NCMR,LP,CN,DAA,OS,MIS</li>
+		
+		</random>
+	</template>
+</category>
+
+
+
+<category>
+	<pattern>WHO TEACHES DAA</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+<category>
+	<pattern>COURSE INSTRUCTOR OF DAA</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+<category>
+	<pattern>DAA IS TAUGHT BY</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+<category>
+	<pattern>DAA COURSE INSTRUCTOR</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+<category>
+	<pattern>DAA * INSTRUCTOR</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS THE COURSE CREDIT OF DAA</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>DAA COURSE CREDIT</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* COURSE CREDIT _ DAA *</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CREDIT OF DAA </pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+<category>
+	<pattern>NUMBER OF CREDITS IN DAA</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CURRICULUM OF DAA</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SYLLABUS OF DAA</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>DAA SYLLABUS</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>WHAT IS THE SYLLABUS OF DAA</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS THE COURSE CURRICULUM OF DAA</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>DAA DETAILS</pattern>
+	<template>
+		<random>
+			<li>DAA IS A 4 CREDIT COURSE WHICH IS GERNALLY TAUGHT BY DR.RAJEEV SINGH SIR YOU HAVE TO STUDY TIME AND SPACE COMPLEXITY ,DYNAMIC PROGRAMMING, DIVIDE AND CONQUER IN DAA</li>
+			
+		
+		</random>
+	</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+</aiml>

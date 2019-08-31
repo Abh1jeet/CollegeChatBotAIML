@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>ADMISSION TO COLLEGE OF TECHNOLOGY</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+
+
+
+<category>
+	<pattern>* ADMISSION TO COLLEGE OF TECHNOLOGY</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+
+<category>
+	<pattern>ADMISSION TO COLLEGE OF TECHNOLOGY *</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+<category>
+	<pattern>COLLEGE OF TECHNOLOGY ADMISSION *</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+
+
+<category>
+	<pattern>COLLEGE OF TECHNOLOGY ADMISSION PROCESS</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+
+<category>
+	<pattern>ADMISSION TO COT</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+
+
+
+<category>
+	<pattern>* ADMISSION TO COT</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+
+<category>
+	<pattern>ADMISSION TO COT *</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+<category>
+	<pattern>COT ADMISSION *</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+
+
+<category>
+	<pattern>COT ADMISSION PROCESS</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+
+
+<category>
+	<pattern>* COT ADMISSION PROCESS *</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+
+<category>
+	<pattern>* COT *ADMISSION * PROCESS *</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+
+<category>
+	<pattern>* COT * ADMISSION *</pattern>
+	<template><srai>ADIMISSION DETAILS COT</srai></template>
+</category>
+<!-- answers -->
+<category>
+	<pattern>ADIMISSION DETAILS COT</pattern>
+	<template>
+		
+			Admission to College of Technology is made through Joint Entrance Examination, JEE (Main)conducted by Central Board of Secondary Education (CBSE) and subsequent counselling by Uttarakhand Technical University (UTU), Dehradun.
+
+			Admission to College of Technology in MCA Programme in made through Entrance Exam Conducted by Admission Committee of the University.
+			
+	</template>
+</category>
+
+
+</aiml>

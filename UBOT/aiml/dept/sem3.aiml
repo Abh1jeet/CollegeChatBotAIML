@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+
+
+<category>
+	<pattern>SUBJECTS IN SEM 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SUBJECTS IN SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SUBJECTS SEM 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SUBJECTS * SEM 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* SUBJECTS * SEM 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* SUBJECTS * SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SUBJECTS SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SUBJECTS * SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES IN SEM 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES IN SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES SEM 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES * SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* YEAR 2 SEM 1 *</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+
+<category>
+	<pattern>* YEAR 2 SEM 1 </pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* 2nd year SEM 1 </pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSES IN YEAR 2 SEM 1</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+
+
+<category>
+	<pattern>WHAT ARE THE COURSES IN SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE COURSES * IN SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+<category>
+	<pattern>WHAT ARE THE COURSES * IN SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+<category>
+	<pattern>* COURSES * IN SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+<category>
+	<pattern>* COURSES * SEMESTER 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+<category>
+	<pattern>* COURSES * SEM 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+
+<category>
+	<pattern>WHAT ARE THE COURSES IN SEM 3</pattern>
+	<template><srai>SEM3 DETAILS</srai></template>
+</category>
+
+<!-- answers -->
+<category>
+	<pattern>SEM3 DETAILS</pattern>
+	<template>
+		<random>
+			<li>FLAT,EDC,DPFS,DS,TOC,CO,MBS,CS,PL</li>
+			<li>WE STUDY FOLLOWING SUBJECTS IN SEMESTER 3 FLAT,EDC,DPFS,DS,TOC,CO,MBS,CS,PL</li>
+			<li>THESE ARE THE FOLLOWING SUBJECTS FLAT,EDC,DPFS,DS,TOC,CO,MBS,CS,PL</li>
+		
+		</random>
+	</template>
+</category>
+
+<category>
+	<pattern>WHO TEACHES FLAT</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+<category>
+	<pattern>COURSE INSTRUCTOR OF FLAT</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+<category>
+	<pattern>FLAT IS TAUGHT BY</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+<category>
+	<pattern>FLAT COURSE INSTRUCTOR</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+<category>
+	<pattern>FLAT * INSTRUCTOR</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS THE COURSE CREDIT OF FLAT</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>FLAT COURSE CREDIT</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>* COURSE CREDIT _ FLAT *</pattern>
+	<template><srai>DAA DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CREDIT OF FLAT </pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+<category>
+	<pattern>NUMBER OF CREDITS IN FLAT</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>COURSE CURRICULUM OF FLAT</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>SYLLABUS OF FLAT</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>FLAT SYLLABUS</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>WHAT IS THE SYLLABUS OF FLAT</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+<category>
+	<pattern>WHAT IS THE COURSE CURRICULUM OF FLAT</pattern>
+	<template><srai>FLAT DETAILS</srai></template>
+</category>
+
+<category>
+	<pattern>FLAT DETAILS</pattern>
+	<template>
+		<random>
+			<li>FLAT IS A 4 CREDIT COURSE WHICH IS GERNALLY TAUGHT BY DR.CHETAN SINGH NEGI SIR YOU HAVE TO STUDY REGULAR LANGUAGES REGULAR GRAMMER CHOMKSY NORMAL FORM TURING MACHINE  IN FLAT</li>
+			
+		
+		</random>
+	</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</aiml>

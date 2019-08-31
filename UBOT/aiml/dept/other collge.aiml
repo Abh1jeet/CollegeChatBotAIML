@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>ADMISSION TO * COLLEGE</pattern>
+	<template><srai>ADMISSION DETAILS OTHERS </srai></template>
+</category>
+
+<category>
+	<pattern>* ADMISSION TO * COLLEGE</pattern>
+	<template><srai>ADMISSION DETAILS OTHERS </srai></template>
+</category>
+
+<category>
+	<pattern>ADMISSION TO * COLLEGE *</pattern>
+	<template><srai>ADMISSION DETAILS OTHERS </srai></template>
+</category>
+<category>
+	<pattern>* COLLEGE ADMISSION *</pattern>
+	<template><srai>ADMISSION DETAILS OTHERS </srai></template>
+</category>
+
+
+<category>
+	<pattern>* COLLEGE ADMISSION PROCESS</pattern>
+	<template><srai>ADMISSION DETAILS OTHERS </srai></template>
+</category>
+<category>
+	<pattern>*  ADMISSION PROCESS *</pattern>
+	<template><srai>ADMISSION DETAILS OTHERS </srai></template>
+</category>
+
+<category>
+	<pattern> *COLLEGE *  admission * process *</pattern>
+	<template><srai>ADMISSION DETAILS OTHERS </srai></template>
+</category>
+
+<category>
+	<pattern>* admission TO * COLLEGE *</pattern>
+	<template><srai>ADMISSION DETAILS OTHERS </srai></template>
+</category>
+<!-- answers -->
+<category>
+	<pattern>ADMISSION DETAILS OTHERS </pattern>
+	<template>
+		
+			Admission to this colleges of the university are made based on the Competitive Entrance Examination. The details are publicized through advertisement in the newspapers and the university website. The admission notice and prospectus can be accessed through the links on the unversity website.
+			
+	</template>
+</category>
+
+
+</aiml>
